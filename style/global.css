@@ -1,8 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  /* font-family: "Asap", serif; */
+  box-sizing: border-box;  
 }
 :root{
   /* Colors */
@@ -32,4 +31,15 @@
 
   --text-md-maven-pro: 400 16px/140% var(--font-maven-pro);
   --text-sm-maven-pro: 400 14px/140% var(--font-maven-pro);
+}
+body{
+  grid-template-rows: repeat(3, 1fr);
+  background-color: var(--base-gray-300);
+}
+h1,h2,h3,h4{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
 }
