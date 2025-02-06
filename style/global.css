@@ -1,3 +1,9 @@
+/* COMBINATORS
+  - Descendente  => Ex: div p {color:red}
+  - List         => Ex: div , P {color:yellow}
+  - Next sibling => Ex: div + p {color: blue} - irmão próximo
+  - Child        => Ex: div > p {color: green} - filhos diretos 
+*/
 *{
   margin: 0;
   padding: 0;
@@ -15,7 +21,7 @@
   --base-gray-200:#16181D;
   --base-gray-300: #292C34;
   --base-gray-400: #878EA1;
-  --base-gray-500: #C0C4CE;
+  --base-gray-500: #C0C4CE; 
   --base-gray-600: #E2E4E9;
   
   /* Tipograph */
@@ -23,9 +29,9 @@
   --font-incosolada: "Inconsolata", serif;
   --font-maven-pro: "Maven Pro", serif;
   
-  --text-lg-asap: 800 56px/120% var(--font-asap);
-  --text-md-asap: 800 24px/120% var(--font-asap);
-  --text-sm-asap: 800 16px/120% var(--font-asap);
+  --text-lg-asap: 700 56px/120% var(--font-asap);
+  --text-md-asap: 700 24px/120% var(--font-asap);
+  --text-sm-asap: 700 16px/120% var(--font-asap);
   
   --text-subtitle: 400 20px/120% var(--font-incosolada);
 
@@ -33,13 +39,15 @@
   --text-sm-maven-pro: 400 14px/140% var(--font-maven-pro);
 }
 body{
-  grid-template-rows: repeat(3, 1fr);
   background-color: var(--base-gray-300);
 }
-h1,h2,h3,h4{
+/* h1,h2,h3,h4{
   padding: 0;
   margin: 0;
-}
+} */
 a{
   text-decoration: none;
+}
+#container{
+  position: relative;
 }

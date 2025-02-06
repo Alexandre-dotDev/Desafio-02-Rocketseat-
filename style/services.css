@@ -1,0 +1,6 @@
+#services{
+  position: relative;
+  grid-area: C;
+  background-color: var(--base-gray-100);
+  
+}

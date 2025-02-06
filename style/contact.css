@@ -1,0 +1,11 @@
+#contact{
+  position: relative;
+  grid-area: D;
+  background-color: var(--base-gray-200);
+
+}
+#contact > img{
+  max-width: 1366px;
+  max-height: 750px;
+  object-fit: cover;
+}

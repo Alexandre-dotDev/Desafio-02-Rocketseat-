@@ -1,0 +1,56 @@
+#projects {
+  position: relative;
+  grid-area: B;
+  justify-content: center;
+
+  background-color: var(--base-gray-200);
+}
+#projects > div {
+  position: absolute;
+  top: 72px;
+  width: 1040px;
+  height: 61px;
+
+  p {
+    text-align: center;
+    font: var(--text-subtitle);
+    color: var(--main-red);
+    padding-bottom: 8px;
+  }
+  h2 {
+    text-align: center;
+    font: var(--text-md-asap);
+    color: var(--base-gray-600);
+  }
+}
+
+main > div {
+  position: relative;
+  top: 189px;
+  background-color: var(--base-gray-300);
+  border-radius: 12px;
+  /* border: 1px solid yellow; */
+
+  img {
+    margin: 12px;
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+  }
+  div {
+    width: 306px;
+    height: 75px;
+    margin: auto;
+
+    p:nth-child(1) {
+      margin: 0px 16px 12px 16px;
+      font: var(--text-sm-asap);
+      color: var(--base-gray-600);
+    }
+    p {
+      margin: 0 16px;
+      font: var(--text-sm-maven-pro);
+      color: var(--base-gray-500);
+    }
+  }
+}
